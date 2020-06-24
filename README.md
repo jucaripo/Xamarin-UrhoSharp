@@ -5,8 +5,8 @@ Introducción al uso de openGl  en Xamarin Forms con UrhoSharp
 
 # Version Android
 
- ![Alt text](relative/path/to/img/Android.png?raw=true "Version Android")
+![alt text](http://jucaripo.com/wp-content/uploads/2020/06/Android-1.png)
 
 # Version iOS
 
- ![Alt text](relative/path/to/img/iOS.png?raw=true "Version iOS") 
+ ![Alt text](http://jucaripo.com/wp-content/uploads/2020/06/iOS.png) 
