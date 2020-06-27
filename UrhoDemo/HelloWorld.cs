@@ -63,17 +63,17 @@ namespace UrhoDemo
             Node node = scene.CreateChild();
             node.Position = new Vector3(0, 0, 5);
             node.Rotation = new Quaternion(10, 60, 10);
-            node.SetScale(.5f);
+            node.SetScale(.2f);
 
             // Modelo traer la geometria de un objeto para su uso en el motor 3d
             StaticModel modelObject = node.CreateComponent<StaticModel>();
-            modelObject.Model = ResourceCache.GetModel("Models/Text.mdl");
+            modelObject.Model = ResourceCache.GetModel("Models/Monkey.mdl");
             
             
 
             // Luces crear una nueva luz
             Node light = scene.CreateChild(name: "light");
-            light.SetDirection(new Vector3(0.4f, -0.5f, 0.3f));
+            light.SetDirection(new Vector3(1.0f, -0.5f, 1.0f));
             light.CreateComponent<Light>();
 
             // Camara crear la camara de la escena
@@ -88,8 +88,8 @@ namespace UrhoDemo
             // Action
             await node.RunActionsAsync(
                 new RepeatForever(new RotateBy(duration: 1,
-                    deltaAngleX: 0, deltaAngleY: 190, deltaAngleZ: 0)));
-
+                    deltaAngleX: 0, deltaAngleY: -190, deltaAngleZ: 0)));
+           
         }
     }
 }

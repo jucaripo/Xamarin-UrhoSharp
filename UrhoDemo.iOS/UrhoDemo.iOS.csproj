@@ -181,7 +181,9 @@
     <BundleResource Include="Resources\Data\Sounds\SmallExplosion.wav" />
     <BundleResource Include="Resources\Data\PostProcess\FXAA3.xml" />
     <BundleResource Include="Resources\Data\Fonts\Font.ttf" />
-    <BundleResource Include="Resources\Data\Fonts\Anonymous Pro.ttf" />
+    <BundleResource Include="Resources\Data\Fonts\Anonymous Pro.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
     <BundleResource Include="Resources\Data\Models\Text.mdl" />
   </ItemGroup>
 </Project>

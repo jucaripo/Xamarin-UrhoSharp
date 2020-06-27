@@ -141,7 +141,9 @@
     <AndroidAsset Include="Assets\Data\Sounds\SmallExplosion.wav" />
     <AndroidAsset Include="Assets\Data\PostProcess\FXAA3.xml" />
     <AndroidAsset Include="Assets\Data\Fonts\Font.ttf" />
-    <AndroidAsset Include="Assets\Data\Fonts\Anonymous Pro.ttf" />
+    <AndroidAsset Include="Assets\Data\Fonts\Anonymous Pro.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AndroidAsset>
     <AndroidAsset Include="Assets\Data\Models\opengl.fbx" />
     <AndroidAsset Include="Assets\Data\Models\Text.mdl" />
   </ItemGroup>
